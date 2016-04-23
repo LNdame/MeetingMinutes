@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Pane>
+         <children>
+            <Button layoutX="84.0" layoutY="205.0" mnemonicParsing="false" text="Button" />
+            <Slider layoutX="117.0" layoutY="258.0" />
+            <Button layoutX="148.0" layoutY="463.0" mnemonicParsing="false" text="Button" />
+            <SplitMenuButton layoutX="109.0" layoutY="509.0" mnemonicParsing="false" text="SplitMenuButton">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </SplitMenuButton>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
